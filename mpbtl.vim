@@ -4,12 +4,12 @@ let s:mpbtl_icon = 1
 let s:mpbtl_numbers = 0
 let s:mpbtl_separators = 1
 
-au BufWrite * hi TabLineSel ctermbg=065 ctermfg=007
-au TextChangedI * hi TabLineSel ctermbg=210 ctermfg=236
+au BufWrite * hi TabLineSel guibg=#5f875f guifg=#c0c0c0 ctermbg=065 ctermfg=007
+au TextChangedI * hi TabLineSel guibg=#ff8787 guifg=#303030 ctermbg=210 ctermfg=236
 
-hi TabLineSel ctermbg=065 ctermfg=007
-hi TabLineFill ctermbg=239 ctermfg=237
-hi TabLine ctermbg=252 ctermfg=239
+hi TabLineSel guibg=#5f875f guifg=#c0c0c0 ctermbg=065 ctermfg=007
+hi TabLineFill guibg=#4e4e4e guifg=#3a3a3a ctermbg=239 ctermfg=237
+hi TabLine guibg=#d0d0d0 guifg=#4e4e4e ctermbg=252 ctermfg=239
 
 hi default link BufTabLineCurrent TabLineSel
 hi default link BufTabLineHidden  TabLine
