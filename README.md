@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="900" src="./screenshot.png" alt="mpbtl">
+	<img width="900" src="assets/screenshot.png" alt="mpbtl">
     <br/>
     <h4 align="center">Using mpbtl + <a href="https://github.com/LinArcX/mpi">mpi</a> + <a href="https://github.com/LinArcX/mpsl">mpsl</a></h4>
 </h1>
@@ -34,6 +34,10 @@ hi TabLine ctermbg=252 ctermfg=239
 ```
 
 Here is the list of colors: https://jonasjacek.github.io/colors/
+
+## Donate
+- Monero: `48VdRG9BNePEcrUr6Vx6sJeVz6EefGq5e2F5S9YV2eJtd5uAwjJ7Afn6YeVTWsw6XGS6mXueLywEea3fBPztUbre2Lhia7e`
+<img src="assets/monero.png" align="center" />
 
 ## License
 ![License](https://img.shields.io/github/license/LinArcX/mpbtl.svg)
